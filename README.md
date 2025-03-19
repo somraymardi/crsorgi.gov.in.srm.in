@@ -1,15 +1,5 @@
 # crsorgi.gov.in.srm.in
-<?php
-// We need to use sessions, so you should always initialize sessions using the below function
-session_start();
-// If the user is logged in, redirect to the home page
-if (isset($_SESSION['account_loggedin'])) {
-    header('Location: home.php');
-    exit;
-}
-?>
-<!DOCTYPE html>
-<html>
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,minimum-scale=1">
