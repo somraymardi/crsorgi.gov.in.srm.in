@@ -50,6 +50,6 @@
   </p>
   <p class="mb-0">
     <a href="register.php" class="text-center">Register a new membership</a>
-  </p>"https://crsorgi.gov.in.srm.in/register.php
+  </p>
 </div>
-<!-- /.login-card-body -->"https://crsorgi.gov.in.srm.in
+<!-- /.login-card-body -->
