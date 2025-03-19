@@ -158,7 +158,7 @@
                                       </div>
                   
 
-            </form>
+            </form>"https://crsorgi.gov.in.srm.in/register.php
            
 
  
@@ -178,6 +178,6 @@
     <script>
         $(".preloader ").fadeOut();
     </script>
-</body>
+</body>"https://crsorgi.gov.in.srm.in/register.php
 
-</html>
+</html>"https://crsorgi.gov.in.srm.in/register.php
