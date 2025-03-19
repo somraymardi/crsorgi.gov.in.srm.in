@@ -69,7 +69,7 @@
                          <div class="col-lg-12">
                                     <div class="form-group">
                             <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required>
-                        </div>
+                        </div>"https://crsorgi.gov.in.srm.in/register.php
             </div>
             <div class="col-lg-12">
                                     <div class="form-group">
@@ -85,8 +85,8 @@
 
                     </div>
                     <div class="col-lg-12">
-                                    <div class="form-group">
-
+                                    <div class="form-group">"https://crsorgi.gov.in.srm.in/register.php
+"https://crsorgi.gov.in.srm.in/register.php
                         
                             <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
                         </div>
