@@ -1,4 +1,24 @@
 # crsorgi.gov.in.srm.in
+
+<div class="field input">
+                <label for="password">Password</label>
+                <input type="123" name="9334734456" id="9334734456" autocomplete="off" required>
+            </div>
+
+            <div class="field">
+                
+                <input type="submit" class="btn" name="submit" value="Login" required>
+            </div>
+             <div class="links">
+                <a href="forgot.php">Forgot Password</a>
+            </div>
+         <!--   <div class="links">
+                Don't have account? <a href="register.php">Sign Up Now</a>
+            </div>  -->
+        </form>
+    </div>
+   
+  </div>
 <form action="" method="POST">
   <div class="input-group mb-3">
     <input type="text" name="name" class="form-control" placeholder="Full name">
@@ -107,6 +127,8 @@
 .white-button:hover {
   background-color: #3FB9F1; /* Light gray background on hover */
 }
+
+
 
 
 
