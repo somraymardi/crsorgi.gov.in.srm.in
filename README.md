@@ -1,5 +1,4 @@
 # crsorgi.gov.in.srm.in
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
