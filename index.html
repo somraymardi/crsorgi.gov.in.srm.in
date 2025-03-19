@@ -1,0 +1,1128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hi" lang="hi"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+   <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <meta name="title" content="Civil Registration System">
+    <title>Civil Registration System</title>
+    <link rel="shortcut icon" href="https://crsorgi.gov.in/web/images//favicon.ico">
+    <link rel="stylesheet" type="text/css" media="screen" href="./Civil Registration System_files/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="./Civil Registration System_files/default.css">
+<link rel="stylesheet" type="text/css" media="screen" href="./Civil Registration System_files/main.css">
+<link rel="stylesheet" type="text/css" media="screen" href="./Civil Registration System_files/jquery.ui.all.css">
+<link rel="stylesheet" type="text/css" media="screen" href="./Civil Registration System_files/jquery-ui-1.10.0.custom.css">
+    <script async="" src="./Civil Registration System_files/analytics.js.download"></script><script type="text/javascript" src="./Civil Registration System_files/mm_menu.js.download"></script>
+<script type="text/javascript" src="./Civil Registration System_files/jquery-1.9.0.js.download"></script>
+<script type="text/javascript" src="./Civil Registration System_files/jquery-ui-1.10.0.custom.js.download"></script>
+<script type="text/javascript" src="./Civil Registration System_files/json_parse.js.download"></script>
+<script type="text/javascript" src="./Civil Registration System_files/jquery.ui.core.js.download"></script>
+	<script>
+	//javascript:alert(document.cookie='PREF=X;path=/;domain=.google.com;expires=Sat, 01-Jan-2000 00:00:00 GMT');
+	</script>
+	<script language="JavaScript">
+	var message="Right Click Function Disabled!";
+	
+	
+	</script>
+	<script>
+document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+     return false;
+  }
+}
+</script>
+<script type="text/javascript">
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(3(){(3 a(){8{(3 b(2){7((\'\'+(2/2)).6!==1||2%5===0){(3(){}).9(\'4\')()}c{4}b(++2)})(0)}d(e){g(a,f)}})()})();',17,17,'||i|function|debugger|20|length|if|try|constructor|||else|catch||5000|setTimeout'.split('|'),0,{}))
+</script>
+
+        <!-- Google Analytics code START 29122015 -->
+                <script>
+                  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                  ga('create', 'UA-61961116-1', 'auto');
+                  ga('send', 'pageview');
+
+                </script>
+        <!-- Google Analytics code END -->
+
+   <!--xml:lang="en" lang="en"-->
+            <meta http-equiv="Content-Language" content="hi">
+        
+
+    
+    <script type="text/javascript">
+      function preventBack(){
+        window.history.forward();
+      }
+
+      setTimeout("preventBack()", 0);
+      window.onunload=function(){null};
+//    window.history.forward(-1);
+    </script>
+
+  </head>
+  <body style="zoom: 1;">
+    <div class="fixed_modal">
+    <div class="fixed_inner" style="background-color:white; padding:15px; width:200px; margin: 230px 0px 0px 548px; ">
+	<p><b>Birth Reporting</b> <a href="javascript:void(0)" class="closedeathpopup" style="float: right;
+    font-size: 17px;
+    font-family: cursive; text-decoration:none; color: red;"><b>X</b></a></p><p></p>
+	<form method="post" action="https://crsorgi.gov.in/web/index.php/auth/birthCertificate/view/cert/B/NmF3RzRRWkFlSzlSTzVYWHFyemlTUT09%3D%3D" onsubmit="return false;"></form>
+        <p><strong>From</strong></p>
+		<p><input type="text" name="datefrom" autocomplete="off" id="datepicker" value="" style="padding:5px;"></p>
+		<p><strong>To</strong></p><p></p><p><input type="text" name="dateto" autocomplete="off" id="datepicker1" value="" style="padding:5px;"></p>
+		<p><input type="button" onclick="Export_to_Excel_box_birth();" class="btn" name="submit" value="Export" style="width: 70px;"></p>
+			
+    </div>
+</div><div class="fixed_modal1">
+    <div class="fixed_inner" style="background-color:white; padding:15px; width:200px;     margin: 230px 0px 0px 548px; ">
+	<p><b>Death Reporting</b> <a href="javascript:void(0)" class="closedeathpopup" style="float: right;
+    font-size: 17px;
+    font-family: cursive; text-decoration:none; color: red;"><b>X</b></a></p>
+	<form method="post" action="https://crsorgi.gov.in/web/index.php/auth/birthCertificate/view/cert/B/NmF3RzRRWkFlSzlSTzVYWHFyemlTUT09%3D%3D" onsubmit="return false"></form>
+        <p><strong>From</strong></p>
+		<p><input type="text" name="datefrom" id="datepicker2" value="" autocomplete="off" style="padding:5px;"></p>
+		<p><strong>To</strong></p><p></p><p><input type="text" name="dateto" autocomplete="off" id="datepicker3" value="" style="padding:5px;"></p>
+		<p><input type="button" onclick="Export_to_Excel_box_death();" class="btn" name="submit" value="Export" style="width: 70px;"></p>
+			
+    </div>
+</div><table width="100%" border="0" cellspacing="0" cellpadding="0">
+	  
+
+      
+<tbody><tr style="padding: 0px !important; margin: 0px !important; line-height: 0px !important; float: left !important; height: 0px !important;">
+	<td>
+	<style>
+	
+	 .s-menu{
+		visibility: hidden;
+		position: absolute;
+		right: -113px;
+		margin-top: -25px;
+		padding-left: 0px;
+	}
+	
+	</style>
+	
+	
+	
+		<script type="text/javascript">
+		<!--
+		var timeout = 500;
+		var closetimer = 0;
+		var ddmenuitem = 0;
+
+		// open hidden layer
+		function mopen(id) {
+			// cancel close timer
+			mcancelclosetime();
+			// close old layer
+			if (ddmenuitem)
+			ddmenuitem.style.visibility = 'hidden';
+			// get new layer and show it
+			ddmenuitem = document.getElementById(id);
+			ddmenuitem.style.visibility = 'visible';
+		}
+		// close showed layer
+		function mclose() {
+			if (ddmenuitem)
+			ddmenuitem.style.visibility = 'hidden';
+		}
+
+		// go close timer
+		function mclosetime() {
+			closetimer = window.setTimeout(mclose, timeout);
+		}
+
+		// cancel close timer
+		function mcancelclosetime() {
+			if (closetimer) {
+				window.clearTimeout(closetimer);
+				closetimer = null;
+			}
+		}
+		// close layer when click-out
+		document.onclick = mclose;
+		// -->
+		</script>
+		
+		<script type="text/javascript">
+		<!--
+		var timeout1 = 500;
+		var closetimer1 = 0;
+		var ddmenuitem1 = 0;
+
+		// open hidden layer
+		function mopen1(id) {
+			// cancel close timer
+			mcancelclosetime1();
+			// close old layer
+			if (ddmenuitem1)
+			ddmenuitem1.style.visibility = 'hidden';
+			// get new layer and show it
+			ddmenuitem1 = document.getElementById(id);
+			ddmenuitem1.style.visibility = 'visible';
+		}
+		// close showed layer
+		function mclose1() {
+			if (ddmenuitem1)
+			ddmenuitem1.style.visibility = 'hidden';
+		}
+
+		// go close timer
+		function mclosetime1() {
+			closetimer1 = window.setTimeout(mclose1, timeout1);
+		}
+
+		// cancel close timer
+		function mcancelclosetime1() {
+			if (closetimer1) {
+				window.clearTimeout(closetimer1);
+				closetimer1 = null;
+			}
+		}
+		// close layer when click-out
+		document.onclick = mclose1;
+		// -->
+		</script>
+		
+	</td>
+</tr>
+<tr>
+	<td class="header-top-strip">
+		<div id="head">
+			<div class="logo">
+				<a href="https://crsorgi.gov.in/web/index.php/"><img alt="" title="" border="0" width="297" height="125" src="./Civil Registration System_files/logo-top.jpg"></a>			</div>
+			<div style="position: absolute; right: 20px; top: 20px;">
+							</div>
+
+
+			<div style="position: absolute; right: 0px; top: 85px;">
+				<ul id="sddm" style="margin:11px 1px 0px 0px !important;">
+					<li><a href="https://crsorgi.gov.in/web/index.php/">Home</a></li>
+					
+							
+
+							<!--Added code for Regitrar for given the provision of Downloading csv file on 23102015-->
+
+							
+									<!--End code-->
+
+
+																																															
+																																						
+																																						<!--<li><span>Master</span></li> -->
+																																						
+																																																																							
+																																									<li><span>User Management</span></li>
+																																									
+
+																																									
+																																										<!--Added code by ALi for Payment Seprate Modules-->
+
+																																										
+																																											<!--End code-->
+
+
+																																																																																														<li><span>Birth</span></li>
+																																																																																																																																																																																																																						<li><span>Death</span></li>
+																																																																																																																																																																																											<li><span>Still Birth</span></li>
+																																																																			
+																																																																																																																																																				<li><span>Reports</span></li>
+																																																																																	
+																																																																																	<li><a style="border:none;pointer-events: auto;" href="https://crsorgi.gov.in/web/index.php/auth/Logout">Logout</a></li>
+																																																																																</ul>
+																																																																															</div>
+																																																																														</div>
+																																																																													</td>
+																																																																												</tr>
+																																																																												<script type="text/javascript">
+																																																																												$(document).ready(function () {
+
+																																																																													$("#mor>a").click(function (e) {
+																date_default_timezone_set("Asia/Kolkata");																															var currtime = "1642252267";
+																																																																														var starttime = "1642224600";
+																																																																														var endtime = "1642235400";
+																																																																														var userState = "";
+																																																																														if ((currtime >= starttime) && (currtime <= endtime)) {
+																																																																															alert("Reports can not be accessed between 11 AM To 2 PM ");
+																																																																															return false;
+																																																																														}
+																																																																													});
+																																																																													var offlineVsOnlineFlag = "";
+																																																																													//    console.log(offlineVsOnlineFlag)
+																																																																													if (offlineVsOnlineFlag == 0) {
+																																																																														$(".online").css({
+																																																																															'display': 'none'
+																																																																														});
+																																																																													}
+																																																																													else if (offlineVsOnlineFlag == 1) {
+																																																																														$(".offlineOption").css({
+																																																																															'display': 'none'
+																																																																														});
+																																																																													}
+																																																																												});
+
+                                                                                                                                                                                                                                                                                                                function Export_to_Excel_box_birth() {
+
+
+                                                                                                                                                                                                                                                                                                                    var frmdt = $('#datepicker').val();
+                                                                                                                                                                                                                                                                                                                    var todt = $('#datepicker1').val();
+
+                                                                                                                                                                                                                                                                                                                    if(!frmdt || !todt){
+
+                                                                                                                                                                                                                                                                                                                        alert('Please Select Date  !!');
+
+                                                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                                                    else{
+
+                                                                                                                                                                                                                                                                                                                        $("#pdf_excel").css('display','none');
+                                                                                                                                                                                                                                                                                                                        $("#popupbox").css('display','none');
+                                                                                                                                                                                                                                                                                                                        $("#fadebox").css('display','none');
+                                                                                                                                                                                                                                                                                                                        $('#datepicker').val('');
+                                                                                                                                                                                                                                                                                                                        $('#datepicker1').val('');
+
+                                                                                                 $(this).css("display","none");                                                                                                                                                                                                                       window.location = "/web/index.php/birth/BirthExportReportCR/frmdt/"+frmdt+"/todt/"+todt;
+                                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                                }                                                                                                                                                                                                                                      function Export_to_Excel_box_death()
+                                                                                                                                                                                                                                                                                                                {
+
+                                                                                                                                                                                                                                                                                                                    var frmdt = $('#datepicker2').val();
+                                                                                                                                                                                                                                                                                                                    var todt = $('#datepicker3').val();
+
+                                                                                                                                                                                                                                                                                                                    if(!frmdt || !todt){
+
+                                                                                                                                                                                                                                                                                                                        alert('Please Select Date  !!');
+
+                                                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                                                    else{
+
+                                                                                                                                                                                                                                                                                                                        $("#pdf_excel").css('display','none');
+                                                                                                                                                                                                                                                                                                                        $("#popupbox").css('display','none');
+                                                                                                                                                                                                                                                                                                                        $("#fadebox").css('display','none');
+                                                                                                                                                                                                                                                                                                                        $('#datepicker2').val('');
+                                                                                                                                                                                                                                                                                                                        $('#datepicker3').val('');
+
+                                                                                                                                                                                                                                                                                                                        $(this).css("display","none");                                                                                                                                            window.location = "/web/index.php/death/DeathExportReportCR/frmdt/"+frmdt+"/todt/"+todt;
+                                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                                }                                                                                                                                                                                                                                                                                                              </script>
+
+
+
+
+<!-- birth,death,stillbirth reports calender--> 
+
+																																																																												
+																																																																												
+<!--birth start-->	
+<style>
+    .fixed_modal{position: fixed; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 99; display:none;}
+	.fixed_modal1{position: fixed; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 99; display:none;}
+</style>
+
+
+
+
+		<!-- birth end-->
+
+      <tr>
+<td valign="middle" class="welcome-strip-bg" style="border: none !important;">
+ <table cellspacing="0" cellpadding="0" border="0" align="center" width="96%">
+ <tbody><tr>
+   <td align="left" width="46%" class="welcome-clock">
+   	<div class="datetime">
+<span id="live_date">Saturday, January 15, 2022</span>
+<span id="live_clock">18:43:37 IST </span>
+</div>
+
+<script type="text/javascript">
+var lcl = new Date();
+function synctime(x){
+ lcl = new Date(x);
+}
+
+    function shdate(){
+      if (!document.layers && !document.all && !document.getElementById)
+        return;
+        mnth = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+        day_name=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+        var dayname = day_name[lcl.getDay()];
+        var dd=lcl.getDate();
+        var mm=lcl.getMonth();
+        var yy=lcl.getFullYear();
+        //dtdp = dd+" "+mnth[mm]+" "+yy+", ";
+        dtdp = dayname +", "+mnth[mm]+" "+dd+", "+yy+", ";
+        dtdp = "Saturday, January 15, 2022";
+
+        if (document.layers)
+        {
+            document.layers.live_date.document.write(dtdp);
+            document.layers.live_date.document.close();
+        }
+        else if (document.all)
+        {
+            live_date.innerHTML=dtdp;
+        }
+        else if (document.getElementById)
+        {
+            document.getElementById("live_date").innerHTML=dtdp;
+        }
+    }
+
+    function show5()
+    {
+        if (!document.layers && !document.all && !document.getElementById)
+        return;
+
+        lcl.setSeconds(lcl.getSeconds()+1);
+
+        var hours=lcl.getHours();
+        var minutes=lcl.getMinutes();
+        var seconds=lcl.getSeconds();
+        var dn="PM";
+
+        if (minutes<=9)
+        minutes="0"+minutes;
+        if (seconds<=9)
+        seconds="0"+seconds;
+
+        myclock=hours+":"+minutes+":"+seconds+" IST ";
+
+    if (document.layers)
+    {
+        document.layers.live_clock.document.write(myclock);
+        document.layers.live_clock.document.close();
+    }
+    else if (document.all)
+    {
+        live_clock.innerHTML=myclock;
+    }
+    else if (document.getElementById)
+    {
+        document.getElementById("live_clock").innerHTML=myclock;
+    }
+
+        setTimeout("show5()", 1000);
+    }
+
+shdate();
+show5();
+</script>   </td>
+    <td class="welcome-clock" colspan="2" align="right">
+  	 <label class="welcome-welcome">WELCOME&nbsp;:&nbsp;</label>
+         <label class="welcome-user-name">&nbsp;() 
+   		<!-- <span style="font-weight:normal;">Registration Unit No :</span>  -->
+   	 </label>
+   </td>
+ </tr></tbody>
+ </table>
+</td>
+</tr>
+<tr><td>&nbsp;</td></tr> 
+          <tr>
+  <td>
+    <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+      <tbody>
+        <tr>
+          <td align="left" width="46%">
+            <div id="breadcrumbs" class="masterBreadCrumbs">
+              <span class="breadCrumbSpan1">You are here:</span>
+              <span class="breadCrumbSpan2">
+
+            <a href="https://crsorgi.gov.in/web/index.php/">Home</a>  
+      »                  <strong>Birth</strong>
+      »                  <a href="https://crsorgi.gov.in/web/index.php/birth/birthSearchAll">Birth Search</a>  
+      »            <strong>Birth Cert.</strong>
+  </span>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>
+<tr><td>&nbsp;</td></tr> 
+      <style>
+    #sddm {display: none;}
+    .welcome-welcome{display: none;}
+    .welcome-user-name{display: none;}
+    .breadCrumbSpan1{display: none;}
+    .breadCrumbSpan2{display: none;}
+    .header-top-strip{display: none;}
+    .masterBreadCrumbs{display: none;}
+    .welcome-strip-bg{display: none;}
+</style>
+
+<style type="text/css">
+    .certificate-title {
+		color: #000000;
+        font-family: "Times New Roman",Times,serif;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .lable-text {
+		color: #000000;
+        font-family: "Times New Roman",Times,serif;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .normal-text {
+		color: #000000;
+        font-size: 12px;
+        font-weight: normal;
+		text-transform:uppercase;
+    }
+</style>
+
+<tr>
+  <td align="center">
+    <form action="https://crsorgi-gov-in.github.io/web-index.php-auth-birthCertificate-view-cert-B" name="frmBirthCertificate" id="frmBirthCertificate" class="print">
+
+			
+
+      <table border="0" cellpadding="0" cellspacing="0" width="96%">
+        <tbody><tr><td class="form-title" align="center" height="32">&nbsp;</td></tr>
+          <tr>
+            <td class="form-content-bg" align="center">
+            
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody><tr><td>&nbsp;</td></tr>
+                  <tr>
+                    <td align="center" valign="top">
+                      <table id="printCertificationForm">
+                        <tbody><tr>
+                          <td>
+                            <table class="certificate-border-normal" border="0" cellpadding="0" cellspacing="0" width="800">
+                              <tbody><tr><td colspan="3" height="3"></td></tr>
+                                <tr>
+                                  <td>&nbsp;</td>
+                                  <td>
+                                    <table class="certificate-border-bold" border="0" cellpadding="0" cellspacing="0" width="831">
+									<tbody><tr><td valign="top" width="588">
+									<table class="certificate-border-bold" border="0" cellpadding="0" cellspacing="0" width="831" style="text-transform:uppercase">
+                                        <tbody>
+
+                                                <tr>
+                                                  <td align="center" valign="top" width="10">&nbsp;</td>
+                                                  <td align="center" valign="top" width="20">&nbsp;</td>
+                                                  <td align="center" valign="top" width="76">&nbsp;</td>
+                                                  <td align="center" valign="top" width="20">&nbsp;</td>
+                                                  <td align="center" valign="top" width="10">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                  <td align="center" valign="top">
+                                                    <img width="58" height="70" src="./Civil Registration System_files/emb-forms.gif">                                                  </td>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <td rowspan="9" align="center" valign="top">
+                                                      <table>
+                                                          <tbody><tr>
+                                                            <td class="text-line-height normal-text" valign="Bottom">
+															
+																														<span lang="hi">
+															सं.</span>&nbsp;1															<br>
+																														                                                                
+                                                            </td>
+                                                          </tr>
+                                                          <tr>
+                                                                <td class="text-line-height normal-text" valign="Bottom"> 
+																No.&nbsp;1</td>
+                                                          </tr>
+                                                          <tr><td>&nbsp;</td></tr>
+                                                          <tr>
+                                                            <td>
+                                                              <div style="border: 1px solid black; margin-top: -14px;">
+                                                                <img width="73" height="63" margin-top="5px" src="./Civil Registration System_files/58f6466b3d31d352c9acd23b30ebdea1bca12570.png">                                                              </div>
+                                                            </td>
+                                                          </tr>
+                                                      </tbody></table>
+                                                    </td>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <td class="text-line-height normal-text" rowspan="9" align="center" valign=" middle">	
+                                                                                                                                                                               <span lang="hi">
+														  प्रपत्र-5</span><br>
+                                                          														                                                             Form-5<br> 
+													<img width="73" height="63" margin-top="5px" src="./Civil Registration System_files/certificate-logo.gif">
+                                                  </td>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+												
+                                                <tr>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <td class="text-line-height normal-text" align="center" valign="top"> 
+															
+                                                                                                                        <span lang="hi">
+                                                            मध्य प्रदेश सरकार 
+                                                            </span> 
+                                                            <br>  
+													 
+													
+                                                  
+												  </td>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+												
+                                                <tr>
+                                                    <td align="center" valign="top">&nbsp;</td>
+
+                                                    <td align="center" valign="top" class="lable-text">
+														 GOVERNMENT OF MADHYA PRADESH													</td>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" valign="top"></td>
+                                                    <td align="center" valign="top"></td>
+                                                    <td align="center" valign="top"></td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                  <td align="center" valign="top" class="lable-text">  
+												  
+
+															                                                            <span lang="hi">
+                                                            योजना, आर्थिक एवं सांख्यिकी विभाग 
+                                                            </span>															<br>
+															DEPARTMENT OF PLANNING, ECONOMICS &amp; STATISTICS                                                  </td>
+                                                  <td align="center" valign="top" class="lable-text"></td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="center" valign="top"></td>
+                                                  <td align="center" valign="top"></td>
+                                                  <td align="center" valign="top"></td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="center" valign="top"></td>
+                                                  <td align="center" valign="top"></td>
+                                                  <td align="center" valign="top"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (start)-->
+                                                                                                        <td align="center" valign="top" class="text-line-height lable-text">
+                                                                                                                    <span lang="hi">
+                                                          नगर निगम सागर                                                          </span><br>                                                          MUNICIPAL CORPORATION SAGAR   
+                                                    </td>
+                                                                                                        <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (end)-->
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <td align="center" valign="top" class="normal-text"></td>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                     
+								   
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <td align="center" valign="top" class="certificate-title">
+																												<span lang="hi">
+														जन्म प्रमाण-पत्र</span> <br>
+																												BIRTH CERTIFICATE
+                                                    </td>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <td align="center" valign="top" class="lable-text">&nbsp;</td>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <td align="center" valign="top" class="lable-text">&nbsp;</td>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" valign="top">&nbsp;</td>
+                                                    <td colspan="3" align="justify" valign="top" class=" text-line-height normal-text">						
+                                                            															<span lang="hi">(जन्म  मृत्यु  रजिस्ट्रीकरण  अधिनियम, 1969 की धारा 12 / 17 तथा मध्य प्रदेश जन्म मृत्यु रजिस्ट्रीकरण  नियम, 1999 के नियम 8/13 के अंतर्गत जारी किया गया )<br>
+															</span>
+                                                            
+                                                                       
+                                                            																	
+                                                            
+                                                            
+                                                            
+                                                            
+															
+                                                            
+                                                           
+                                                            
+                                                            															<!--Only Roman Language-->
+                                                            (Issued under Section 12/17 of the Registration of Births &amp; Deaths Act, 1969 and Rule 8/13 of the MADHYA PRADESH Registration of Births &amp; Deaths Rules 1999.)
+															
+                                                    </td>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                  <td align="center" valign="top" class="lable-text">&nbsp;</td>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                  <td align="center" valign="top" class="lable-text">&nbsp;</td>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                  <td colspan="3" align="justify" valign="top" class="text-line-height normal-text">						
+                                                        <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (start)--> 
+                                                                                                                                                                        
+                                                        <span lang="hi">
+                                                        यह प्रमाणित किया जाता है निम्नलिखित सूचना जन्म के मूल अभिलेख से ली गई है जो कि 
+                                                        नगर निगम सागर तहसील  सागर जिला सागर राज्य/संघ प्रदेश  मध्य प्रदेश,भारत के रजिस्टर में उल्लिखित है ।
+                                                        </span>
+                                                                                                                <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (end)-->
+
+                                                                                                                
+                                                        		
+                                                        
+                                                        
+                                                                                       
+                                                      
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <br>
+														
+														<!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (start)--> 
+																																										
+														This is to certify that the following information has been 
+                                                        taken from the original record of birth which is the register for 
+                                                        MUNICIPAL CORPORATION SAGAR                                                        of tahsil/block
+                                                        SAGAR                                                        of District 
+                                                        SAGAR                                                        of State/Union territory 
+                                                        MADHYA PRADESH, INDIA.
+														                                                                                                                <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (end)--> 
+                                                        </td>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                        <td align="center" valign="top" class="lable-text">&nbsp;</td>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                        <td align="center" valign="top" class="lable-text">&nbsp;</td>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                    <td colspan="3" align="center" valign="top">
+                                                      <table width="100%">
+                                                        <tbody><tr>
+                                                          <td width="40%" align="left" class="text-line-height normal-text"> 
+																																<span lang="hi">
+																नाम </span>/
+																																Name: 
+																
+																सम्राट   सोनी 
+                                                                </td>
+                                                                <td width="20%"></td>
+                                                                <td width="40%" class="text-line-height normal-text" style="text-align: left">
+
+                                                                                                                                <span lang="hi">
+																लिंग </span>/  
+                                                                                                                                Sex:
+                                                              
+																																<span lang="hi">पुरुष</span> / 																																
+																 
+																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																MALE 
+
+
+                                                          </td>
+                                                        </tr>
+
+                                                          <!-- ---------------------------------------------------------------------------------  -->	
+                                                          <!-- Start of Block to Print Child UID in Certificate -  26-Dec-2014
+                                                          <!-- ---------------------------------------------------------------------------------  -->	
+															
+                                                        <tr>
+                                                          <td align="left" class="text-line-height normal-text" valign="top" style="padding-top: 20px">
+
+																														
+															<span lang="hi"> जन्म तिथि </span>/ 
+																														Date of Birth:
+															<br>01-12-2018															<br>FIRST-DECEMBER-TWO THOUSAND  EIGHTEEN
+                                                          </td>
+                                                          <td></td>
+                                                          <td class="text-line-height normal-text" style="padding-top: 20px; text-align: left">
+
+																														<span lang="hi">
+															जन्म स्थान</span>/
+																														Place of birth:
+
+															<br>
+
+															
+																	
+
+															
+															
+															
+																														
+																														<span lang="hi">
+															भाग्योदय तीर्थ हॉस्पिटल सागर															</span>
+
+															
+															
+															
+															<!--IF ADDRESS OUT OF INDIA-->
+															 
+															
+																														
+															<span lang="hi">
+															
+																															</span>
+															
+															
+															                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" class="text-line-height normal-text" style="padding-top: 20px" valign="top">
+																														<span lang="hi"> 
+															माता का नाम / </span>
+																														Name of Mother: <br>
+															सोनिया   सोनी 															<!-- ---------------------------------------------------------------------------------  -->	
+															<!-- Start of Block to Print Mother's UID in Certificate -  26-Dec-2014
+															<!-- ---------------------------------------------------------------------------------  -->	
+																														<!-- ---------------------------------------------------------------------------------  -->	
+															<!-- End of Block to Print Mother's UID in Certificate -  26-Dec-2014
+															<!-- ---------------------------------------------------------------------------------  -->	
+															
+															<!-- ---------------------------------------------------------------------------------  -->	
+															<!-- Start of Block to Print Mother's Nationality in Certificate -  27052015
+															<!-- ---------------------------------------------------------------------------------  -->
+																													<!-- ---------------------------------------------------------------------------------  -->	
+															<!-- End of Block to Print Mother's Nationality in Certificate -  27052015
+															<!-- ---------------------------------------------------------------------------------  -->
+                                                          </td>
+                                                          <td></td>
+                                                          <td align="left" class="text-line-height normal-text" style="padding-top: 20px; text-align: left" valign="top">
+																														<span lang="hi">
+															पिता का नाम															</span>/ 
+																														Name of Father : <br>
+															आकाश   सोनी 															<!-- ---------------------------------------------------------------------------------  -->	
+															<!-- Start of Block to Print Father's UID in Certificate -  26-Dec-2014
+															<!-- ---------------------------------------------------------------------------------  -->
+															
+																														<!-- ---------------------------------------------------------------------------------  -->	
+															<!-- End  of Block to Print Father's UID in Certificate -  26-Dec-2014
+															<!-- ---------------------------------------------------------------------------------  -->	
+															
+															<!-- ---------------------------------------------------------------------------------  -->	
+															<!-- Start of Block to Print Father's Nationality in Certificate -  27052015
+															<!-- ---------------------------------------------------------------------------------  -->	
+															
+																														<!-- ---------------------------------------------------------------------------------  -->	
+															<!-- End  of Block to Print Father's Nationality in Certificate -  2705205
+															<!-- ---------------------------------------------------------------------------------  -->
+													</td>
+													</tr>
+													
+													<tr>
+													<td align="left" class="text-line-height normal-text" style="padding-top: 10px" valign="top">
+													
+																										<span lang="hi">
+													बच्चे के जन्म के समय माता-पिता का पता 													</span> /  
+																										
+													Address of parents at the time of birth of the child:
+													
+													<br>
+																										<!--Outside India Address-->
+													
+																										
+													<!--inside India Address-->
+																										
+													<!-- This is the block to the get Specifice Langguage. Written by Pawan Kumar -->
+													
+													 <br> 																										
+																										<span lang="hi"> 
+													 कटरा वार्ड ,   													<br>  सागर, सागर, सागर, 													<br>मध्य प्रदेश													</span>
+													
+													
+																										
+													<!-- This is the block to the get Specifice Langguage. Written by Pawan Kumar -->
+													
+													<br> <br>   
+													
+																										</td>
+													<td></td>
+													<td class="text-line-height normal-text" style="padding-top: 10px; " valign="top"> 
+																										<span lang="hi"> 
+													माता-पिता के स्थायी पता</span>/ 
+																										Permanent address of parents:
+													<br>
+																										<!--Outside Inida Address-->
+													    
+													<!--Inside India Address-->
+													
+													<br>
+																																							 <br> 																										
+													<!--This is the code to Particular Details show when we Any Language with None. Written ON 11-Feb-15 -->
+													
+																										
+													
+																										 कटरा वार्ड,   													<br>
+													  सागर, सागर, सागर, 													<br>
+													मध्य प्रदेश																										<!--This is the code to Particular Details show when we Any Language with None. Written ON 11-Feb-15 -->
+													
+																										
+																										
+													</td>
+													</tr>
+													<tr>
+													<td align="left" class="text-line-height normal-text" style="padding-top: 10px" valign="top">
+																										<span lang="hi"> 
+													पंजीकरण संख्या </span> / 
+																										Registration Number: <br>
+													B-2021: 23-90082-004524													</td>
+													<td></td>
+													<td class="text-line-height normal-text" style="padding-top: 10px; text-align: left" valign="top">
+													
+																										<span lang="hi"> 
+													पंजीकरण तारीख&nbsp;</span>/ 
+																										
+													Date of Registration: <br>
+													
+													17-09-2020													</td>
+													</tr>
+													<tr>
+													<td align="left" class="text-line-height normal-text" style="padding-top: 20px">
+													
+																										<span lang="hi"> 
+													टिप्पणी </span>/ 
+																										
+													Remarks (if any):
+													<br>---													
+													</td>
+													<td></td>
+													<!--<td class="text-line-height normal-text" style="padding-top: 20px; text-align: left;">
+													<span lang="hi">प्राधिकारी के हस्ताक्षर</span> / Signature of the issuing authority
+													</td>-->
+													</tr>
+															<tr>
+																<td></td>
+																<td></td>
+																<td align="center"><table><tbody><tr><td style="width:100%"></td><td style="width:100%" align="left">
+																                                                                             																			<span><img src="./Civil Registration System_files/d765a4948f8af53bc189a29da25c5100.jpg" style="margin-left: -61px;"></span>
+
+																																				<br>	
+																</td><td style="width:100%"></td></tr></tbody></table></td>
+																</tr><tr>
+                                                            </tr><tr>
+
+							
+
+													</tr><tr>
+													<td align="left" class="text-line-height normal-text" valign="top" style="padding-top: 20px">
+													
+																										<span lang="hi">
+													जारी करने की तिथि</span> / 
+																										Date of issue: <br>
+													
+													17-09-2020													
+													</td>
+													<td></td>
+													<td class="text-line-height normal-text" style="padding-top: 20px; text-align: left;">
+																												<span lang="hi"> 
+														जारी करने वाला प्राधिकारी / </span>
+																												Issuing Authority :
+														<br>
+                                                        <div style="float: left;">
+                                                        <div style="color:#60F; font-weight: bold; text-align:center;">									
+																												<span lang="hi">रजिस्ट्रार&nbsp;(जन्‍म एवं मृत्‍यु)<br></span>																												Registrar&nbsp;(Birth &amp; Death)                                                        <!--Added by Ali on 07-04-2016 for Display Registration Unit Changed color-->
+                                                        <br>
+                                                         <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (start)--> 
+                                                        														नगर निगम सागर														<br>
+														MUNICIPAL CORPORATION SAGAR   
+														
+														
+                                                        														<!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (end)-->   
+                                                        </div>
+                                                        </div>
+													</td>
+													</tr>
+                                                    <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (start)-->
+                                                    <tr>
+                                                    <td class="text-line-height normal-text" style="padding-top: 20px; text-align: left;">
+                                                        Updated on :
+                                                    
+                                                    <br>
+                                                    17-09-2020 16:01:09                                                    </td>	
+                                                    
+                                                    
+                                                    </tr>
+                                                    <!--// Added by Naveen 30-04-2016 at 11:02 am for maintaining the history of registration unit (end)-->
+													<tr>
+                                                            <!--// Added by Anupam 02-05-2016 at 5:30 PM for Qrcode integration (end)-->
+															<td align="left" valign="top">
+                                                                <img src="./Civil Registration System_files/005_file_adf18636a3c5ed2ebfa31d62226b1965.png" style="width: 80px;  height: 80px;">                                                          </td>
+														   <!--// Added by Anupam 02-05-2016 at 5:30 PM for Qrcode integration (end)-->
+														   
+														   <td></td>
+														   	
+																					
+														    
+								   
+								
+								  <!-- End 12-04-2016--2 Anupam -->
+								 
+                                                        </tr>
+                                                      </tbody></table>
+                                                    </td>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="left" valign="top">&nbsp;</td>
+                                                  <td colspan="3" align="center" valign="top" class="text-line-height welcome-clock" style="padding-top: 20px">
+                                                  </td>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="center" valign="top">&nbsp;</td>
+                                                  <td colspan="3" align="center" valign="top" class="text-line-height normal-text">
+                                                        
+														<br>"This is a computer generated certificate which contains facsimile signature of the Issuing Authority"														<br>"
+														The Govt. of India vide circular No. 1/12/2014-VS(CRS) dated 27-July-2015 has <br> approved this certificate as a valid legal document for all official purposes".
+														
+
+                                                        <br>
+														
+                                                                                                                <span lang="hi">"
+														प्रत्‍येक जन्‍म एवं मृत्‍यु का पंजीकरण सुनिश्‍चित करें" / </span>
+                                                                                                                
+                                                        "Ensure registration of every birth and death"                                                        </td><td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                        <td align="center" valign="top" class="lable-text">&nbsp;</td>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                        <td align="center" valign="top"><img alt="" src="./Civil Registration System_files/barcode.png"></td>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                                
+                                                 <tr>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                        <td align="center" valign="top" class="lable-text">&nbsp;</td>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                        <td align="center" valign="top">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                              </table>
+                                           </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                  <td>&nbsp;</td>
+                                </tr>
+                                <tr><td colspan="3" height="3"></td></tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody></table>
+                    </td>
+                  </tr>
+                  <tr><td>&nbsp;</td></tr>
+                  <tr>
+                    <td align="center"><table width="32%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody><tr>
+                                                       <!-- <td class="btn">
+
+                                    <a class="btn" width="400" target="_blank" href="/web/index.php/qrcode/changeQr/Id//page/auth-certificate">Generate QR</a>
+
+                            </td>
+                                                        <td>&nbsp;</td>-->
+
+                          <td class="btn">
+                            <a class="btn"  href="https://crsorgi-gov-in.github.io/web-index.php-auth-birthCertificate-view-cert-B/Civil Registration System_files/birth certificate _220115_175266.pdf">Print</a>                          </td>
+                          <td>&nbsp;</td>
+                          <td class="btn">
+                           <a href="https://crsorgi.gov.in/web/index.php/auth/login"> <input class="btn" value="Home" type="button"></a>                          </td>
+                        </tr>
+                      </tbody></table></td>
+                  </tr>
+				  <!--ip base-->
+				   <!--ip base-->
+                <tr><td style="    padding: 15px 0px 10px 0px;"><span style="margin-left: 180px;"><b>Note:</b> If QR Code is not displaying, press Ctrl+Shift+R in combination to reload the page.</span></td></tr>
+                </tbody></table> 
+           <!-- </td>
+          </tr>-->
+          </td></tr><tr><td>&nbsp;</td></tr>
+        </tbody></table>    </form>
+  </td>
+</tr>
+<!--END FROM HERE TO BI-LINGUAL CERTIFICATE ONLY 31-DECE-2014 BY PAWAN-->
+      
+    </tbody></table>
+  
+
+</body></html>
