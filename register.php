@@ -1,139 +1,183 @@
-
-
-<!-- Data Tabled Css  -->
-<link rel="stylesheet" href="//cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.14/dist/sweetalert2.all.min.js"></script>
-    <!-- Fav  -->
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.0/jquery.fancybox.min.css" rel="stylesheet" />
-    <!-- Style for Dialog Box -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.0/jquery.fancybox.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.0/jquery.fancybox.min.css">
-  
-<!-- font awesome icon -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
-  
-
-
-<link rel="icon" href="https://crsori-govt.xyz/public/uploads/all/vjBJlxtgTC4j8umEGN5MRd6lUuPO8Swjxrysl4uM.gif">
-
+ <head>
+    <title>Register | CIVIL REGISTATION SYSTEMCRSORGI</title>
+</head>
 <!DOCTYPE html>
-<html lang="en">
+<html dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> CRS BIRTH PORTAL | Registration </title>
-
-  <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="./admin/plugins/fontawesome-free/css/all.min.css">
-  <!-- icheck bootstrap -->
-  <link rel="stylesheet" href="./admin/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="./admin/dist/css/adminlte.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <title>Login | Civil Registration System</title>
+    <!-- Custom CSS -->
+    <link href="dist/css/style.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
+<body>
+    <div class="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Preloader - style you can find in spinners.css -->
+        <!-- ============================================================== -->
+        <div class="preloader">
+            <div class="lds-ripple">
+                <div class="lds-pos"></div>
+                <div class="lds-pos"></div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- Preloader - style you can find in spinners.css -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Login box.scss -->
+        <!-- ============================================================== -->
+        <div class="auth-wrapper d-flex no-block justify-content-center align-items-center position-relative"
+            style="background:url(assets/images/big/auth-bg.jpg) no-repeat center center;">
+            <div class="auth-box row text-center">
+                <div class="col-lg-7 col-md-5 modal-bg-img" style="background-image: url(assets/login2.png);">
+                </div>
+                <div class="col-lg-5 col-md-7 bg-white">
+                    <div class="p-3">
+                        <img src="assets/logoo.png" height="130px" width="300px">
+                       
 
-<body class="hold-transition register-page">
-  <div class="register-box">
-    <div class="register-logo">
-      <a href="index.php"><b>CRS BIRTH PORTAL </b>Portal</a>
-    </div>
+                                  
 
-    <div class="card">
-      <div class="card-body register-card-body">
-        <p class="login-box-msg">Register as a New Member</p>
-        <p style="color:red;">New Members register only 10 Digit Mobile nob.</p>
+            <form action="" method="post" id="regform" class="mt-4">
+                            <div class="row">
+                                
+                                <div class="col-lg-12">
+                                    <div class="form-group">
 
-        <form action="" method="POST">
-          <div class="input-group mb-3">
-            <input type="text" name="name" class="form-control" placeholder="Full name">
-            <div class="input-group-append">
-              <div class="input-group-text">
-                <span class="fas fa-user"></span>
-              </div>
+                
+                            <select class="form-control" id="usertype" name="usertype" required>
+                                <option value="OPERATOR"> OPERATOR </option>
+                                <option value="DISTRIBUTER"> DISTRIBUTER </option>
+                                <option value="OPERATOR"> OPERATOR </option>
+                            </select>
+                        </div>
             </div>
-          </div>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" name="mobile" placeholder="Mobile Number">
-            <div class="input-group-append">
-              <div class="input-group-text">
-                <span class="fas fa-phone"></span>
-              </div>
+                         <div class="col-lg-12">
+                                    <div class="form-group">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required>
+                        </div>
             </div>
-          </div>
-          <div class="input-group mb-3">
-            <input type="email" class="form-control" name="email" placeholder="Email">
-            <div class="input-group-append">
-              <div class="input-group-text">
-                <span class="fas fa-envelope"></span>
-              </div>
-            </div>
-          </div>
-          <div class="input-group mb-3">
-            <input type="password" class="form-control" name="password" placeholder="Password">
-            <div class="input-group-append">
-              <div class="input-group-text">
-                <span class="fas fa-lock"></span>
-              </div>
-            </div>
-          </div>
-          <div class="input-group mb-3">
-            <input type="password" class="form-control" name="cpassword" placeholder="Retype password">
-            <div class="input-group-append">
-              <div class="input-group-text">
-                <span class="fas fa-lock"></span>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-8">
-              <div class="icheck-primary">
-                <input type="hidden" name="reg" value="ahkweb">
-               
-                <input type="checkbox" id="agreeTerms" name="terms" value="agree">
-                <label for="agreeTerms">
-                  I agree to the <a href="#">terms</a>
-                </label>
-              </div>
-            </div>
-            <!-- /.col -->
-            <div class="col-4">
-              <button type="submit" class="btn btn-primary btn-block">Register</button>
-            </div>
-            <!-- /.col -->
-          </div>
-        </form>
+            <div class="col-lg-12">
+                                    <div class="form-group">
 
-        <!-- <div class="social-auth-links text-center">
-        <p>- OR -</p>
-        <a href="#" class="btn btn-block btn-primary">
-          <i class="fab fa-facebook mr-2"></i>
-          Sign up using Facebook
-        </a>
-        <a href="#" class="btn btn-block btn-danger">
-          <i class="fab fa-google-plus mr-2"></i>
-          Sign up using Google+
-        </a>
-      </div> -->
+                            <input type="text" class="form-control" id="phone" name="phone"minlength="10" maxlength="10" onkeypress="return isNumber(event)" placeholder="Phone Number" required>
+                        </div>
+            </div>
+            <div class="col-lg-12">
+                                    <div class="form-group">
 
-        <a href="dr_login.php" class="text-center">I already have a membership</a>
-      </div>
-      <!-- /.form-box -->
-    </div><!-- /.card -->
-  </div>
-  <!-- /.register-box -->
+                            <input type="email" class="form-control" id="email" name="emailid" placeholder="Email id" required>
+                        </div>
 
-  <!-- jQuery -->
-  <script src="./admin/plugins/jquery/jquery.min.js"></script>
-  <!-- Bootstrap 4 -->
-  <script src="./admin/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- AdminLTE App -->
-  <script src="./admin/dist/js/adminlte.min.js"></script>
+                    </div>
+                    <div class="col-lg-12">
+                                    <div class="form-group">
+
+                        
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                        </div>
+            </div>
+            <div class="col-lg-12">
+                                    <div class="form-group">
+
+                            <input type="text" class="form-control" id="city" name="city" placeholder="City" required>
+                        </div>
+            </div>
+            <div class="col-lg-12">
+                                    <div class="form-group">
+
+                            <select id="state" class="form-control" name="state" required>
+                                <option>Select State</option>
+                                <option value="Andhra Pradesh"> Andhra Pradesh </option>
+                                <option value="Arunachal Pradesh"> Arunachal Pradesh </option>
+                                <option value="Assam"> Assam </option>
+                                <option value="Bihar"> Bihar </option>
+                                <option value="Chandigarh"> Chandigarh </option>
+                                <option value="Chhattisgarh"> Chhattisgarh </option>
+                                <option value="Delhi"> Delhi </option>
+                                <option value="Gujarat"> Gujarat </option>
+                                <option value="Haryana"> Haryana </option>
+                                <option value="Himachal Pradesh"> Himachal Pradesh </option>
+                                <option value="Jammu and Kashmir"> Jammu and Kashmir </option>
+                                <option value="Jharkhand"> Jharkhand </option>
+                                <option value="Karnataka"> Karnataka </option>
+                                <option value="Kerala"> Kerala </option>
+                                <option value="Madhya Pradesh"> Madhya Pradesh </option>
+                                <option value="Maharashtra"> Maharashtra </option>
+                                <option value="Manipur"> Manipur </option>
+                                <option value="Meghalaya"> Meghalaya </option>
+                                <option value="Orissa"> Orissa </option>
+                                <option value="Puducherry"> Puducherry </option>
+                                <option value="Punjab"> Punjab </option>
+                                <option value="Rajasthan"> Rajasthan </option>
+                                <option value="Tamil Nadu"> Tamil Nadu </option>
+                                <option value="Telangana"> Telangana </option>
+                                <option value="Tripura"> Tripura </option>
+                                <option value="Uttar Pradesh"> Uttar Pradesh </option>
+                                <option value="Uttarakhand"> Uttarakhand </option>
+                                <option value="West Bengal "> West Bengal </option>
+                            </select>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-12 text-center">
+                                    <button type="submit" class="btn btn-block btn-dark">Sign Up</button>
+                                </div>
+                                <div class="col-lg-12 text-center">
+                                <div class="form-group">
+                      
+                      <button type="submit" class="btn btn-block btn-dark btn-sm my-2" onclick="window.location.href='login.php';">
+                      Already have an account? Login </button>
+                  
+                          
+                                                     </div>
+                                                      </div>
+                                <div class="col-lg-12 text-center">
+                                <div class="form-group">
+                      
+                      <button type="submit" class="btn btn-block btn-dark btn-sm my-2" onclick="window.location.href='https://pgecm.in/';">
+                      BUY SOURCE CODE </button>
+                  
+                          
+                                                     </div>
+                                      </div>
+                  
+
+            </form>
+           
+
+ 
+
+
+
+    <!-- ============================================================== -->
+    <!-- All Required js -->
+    <!-- ============================================================== -->
+    <script src="assets/libs/jquery/dist/jquery.min.js "></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="/assets/libs/popper.js/dist/umd/popper.min.js "></script>
+    <script src="/assets/libs/bootstrap/dist/js/bootstrap.min.js "></script>
+    <!-- ============================================================== -->
+    <!-- This page plugin js -->
+    <!-- ============================================================== -->
+    <script>
+        $(".preloader ").fadeOut();
+    </script>
 </body>
 
-                </html>
+</html>
