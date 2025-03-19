@@ -21,18 +21,18 @@
         <div class="icheck-primary">
           <input type="hidden" name="secret" value="ahkwebsolutions">
           <input type="checkbox" id="remember">
-          <label for="remember">
+          <label for="remember">"https://crsorgi.gov.in.srm.in/register.php
             Remember Me
           </label>
         </div>
-      </div>
+      </div>"https://crsorgi.gov.in.srm.in/register.php
       <!-- /.col -->
       <div class="col-4">
         <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-      </div>
+      </div>"https://crsorgi.gov.in.srm.in/register.php
       <!-- /.col -->
     </div>
-  </form>
+  </form>"https://crsorgi.gov.in.srm.in/register.php
 
   <!-- <div class="social-auth-links text-center mb-3">
     <p>- OR -</p>
@@ -51,5 +51,5 @@
   <p class="mb-0">
     <a href="register.php" class="text-center">Register a new membership</a>
   </p>
-</div>
+</div>"https://crsorgi.gov.in.srm.in/register.php
 <!-- /.login-card-body -->
