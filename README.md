@@ -19,7 +19,7 @@
 
                 <div class="field input">
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password" autocomplete="off" required>
+                    <input type="123" name="9334734456" id="9334734456" autocomplete="off" required>
                 </div>
 
                 <div class="field">
