@@ -29,7 +29,7 @@
       <!-- /.col -->
       <div class="col-4">
         <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-      </div>"https://crsorgi.gov.in.srm.in/login.php
+      </div>
       <!-- /.col -->
     </div>
   </form>
