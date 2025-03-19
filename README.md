@@ -1,17 +1,7 @@
 # crsorgi.gov.in.srm.in
 
 <!-- Data Tabled Css  -->
-<link rel="icon" href="https://crsorg-gov.com//public/uploads/all/vjBJlxtgTC4j8umEGN5MRd6lUuPO8Swjxrysl4uM.gif">
-
-<script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
-        <script>
-          var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"WhatsApp Us","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"123456789","welcomeMessage":"Hello","zIndex":999999,"btnColorScheme":"light"};
-          window.onload = () => {
-            _waEmbed(wa_btnSetting);
-          };
-        </script>
-      
-      
+<link rel="icon" href="https://crsorg-gov.com//public/uploads/all/vjBJlxtgTC4j8umEGN5MRd6lUuPO8Swjxrysl4uM.gif">   
 <!--End of Tawk.to Script-->
 <div class="card">
 <h2></i><spastyle="color:green;"> <marquee behavior="alternate" with="50" scrollamount="5"bgcolor="#FF00FF
