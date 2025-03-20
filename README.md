@@ -19,7 +19,6 @@ Somray Mardi
 
      	<button type="submit">Login</button>
           <a href="signup.php" class="ca">Create an account</a>
-     </form>
 <html>
 <head>
 	<title>SIGN UP</title>
