@@ -19,8 +19,7 @@ Somray Mardi
 
      	<button type="submit">Login</button>
           <a href="signup.php" class="ca">Create an account</a>
-<html>
-<head>
+	 </form> 
 	<title>SIGN UP</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
