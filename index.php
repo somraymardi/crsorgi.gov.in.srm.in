@@ -1,3 +1,7 @@
+<?php session_start();
+include_once("conne.php");
+
+?>
 #crsorgi.gov.in.srm.in 
 <!DOCTYPE html>
 <html>
