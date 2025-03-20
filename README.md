@@ -1,5 +1,5 @@
 # crsorgi.gov.in.srm.in 
-<!DOCTYPE html> Somray Mardi 
+Somray Mardi 
 <html>
 <head>
 	<title>LOGIN</title>
