@@ -20,8 +20,6 @@ Somray Mardi
      	<button type="submit">Login</button>
           <a href="signup.php" class="ca">Create an account</a>
      </form>
-# crsorgi.gov.in.srm.in 
-<!DOCTYPE html>
 <html>
 <head>
 	<title>SIGN UP</title>
