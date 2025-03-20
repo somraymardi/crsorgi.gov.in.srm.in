@@ -26,8 +26,7 @@ Somray Mardi
 <body>
      <form action="signup-check.php" method="post">
      	<h2>SIGN UP</h2>
-     	<?php if (isset($_GET['error'])) { ?>
-     		<p class="error"><?php echo $_GET['error']; ?></p>
+     	
      	<?php } ?>
           <?php if (isset($_GET['success'])) { ?>
                <p class="success"><?php echo $_GET['success']; ?></p>
