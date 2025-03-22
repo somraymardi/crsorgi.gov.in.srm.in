@@ -1,5 +1,9 @@
-<?php
-include 'db.php';
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    echo "<pre>";
+    print_r($_POST);  // डेटा चेक करें
+    echo "</pre>";
+    exit();
+}
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
