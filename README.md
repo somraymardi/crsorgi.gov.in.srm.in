@@ -44,6 +44,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <option value="Other">Other</option>
         </select>
         <button type="submit">Register</button>
+        <?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    // Process form data
+    $username = $_POST['username'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    
+    // Database insertion logic goes here (optional)
+    echo "Form submitted successfully!";
+} else {
+    echo "405 Method Not Allowed. Use POST method.";
+}
+?>
+
     </form>
 </body>
 </html>
